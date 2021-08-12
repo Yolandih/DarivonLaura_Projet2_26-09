@@ -11,101 +11,307 @@
 </head>
 
 <body>
-        <header>
-            <div id="logoText">
-                <div id="logo"><img src="images/logo/Reservia.svg" /></div>
-            </div>
-
-
-            <nav>
-                <ul>
-                    <li><a href="#">Hébergement</a></li>
-                    <li><a href="#">Activité</a></li>
-                    <a href="#">S'inscrire</a>
-                </ul>
-            </nav>
-        </header>
-
-        <div id="banniereImg">
-            <h2>Trouvez votre hébergement pour des vacances de rêve  </h2>
-                <p>En plein centre ville ou en pleine nature</p>
-        </div>
-
-        <div>
-            <form method="post" action="recherche.php" id="searchbox">
-                <span class="icosearch"><i class="fas fa-map-marker-alt"></i></span>
-                <input type="search" placeholder="Marseilles,France" />
-                <input id="SearchSubmit" type="submit" value="Rechercher" />
-            </form>
-        </div>
-
-        <div id="filtreBox">
-            <p class="filtreTitle">Filtre</p>
-            <div class="textFilttre">
-                <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-money-bill-wave"></i></span>
-                <p>Economique</p>
-            </div>
-
-            <div class="textFilttre">
-                <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-child"></i></span>
-                <p>Famillial</p>
-            </div>
-
-            <div class="textFilttre">
-                <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-heart"></i></i></span>
-                <p>Romantique</p>
-            </div>
-
-            <div class="textFilttre">
-                <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-dog"></i></i></span>
-                <p>Animaux autorisés</p>
-            </div>
-
+    <header>
+        <div id="logoText">
+            <div id="logo"><img src="images/logo/Reservia.svg" /></div>
         </div>
 
 
-        <section>
-            <article>
-                <h1><img src="images/ico_epingle.png" alt="ico" class="icoImg" />Je suis un grand voyageur</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
-                <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
-                <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
-            </article>
-            <aside>
-                <h1>A propos de l'auteur</h1>
-                <img src="images/bulle.png" id="fleche_bulle" />
-                <p><img src="images/zozor_classe.png" alt="image zozor" id="zozorphoto" /></p>
-                <p>Bien maigre, n'est-ce pas ? C'est pourquoi, aujourd'hui, j'ai décidé d'écrire ma biographie afin que vous sachiez qui je suis réellement.</p>
-                <p><img src="images/facebook.png" alt="Facebook" /><img src="images/twitter.png" alt="Twitter" /><img src="images/vimeo.png" alt="Vimeo" /><img src="images/flickr.png" alt="Flickr" /><img src="images/rss.png" alt="RSS" /></p>
-            </aside>
+        <nav>
+            <ul>
+                <li><a href="#Hebergement1">Hébergement</a></li>
+                <li><a href="#Activite1">Activité</a></li>
+            </ul>
+            <div><a href="#">S'inscrire</a></div>
+        </nav>
+    </header>
+
+    <div id="banniereImg">
+        <h1>Trouvez votre hébergement pour des vacances de rêve  </h1>
+        <p>En plein centre ville ou en pleine nature</p>
+    </div>
+
+    <div>
+        <form method="post" action="recherche.php" id="searchbox">
+            <span class="icosearch"><i class="fas fa-map-marker-alt"></i></span>
+            <input type="search" placeholder="Marseilles,France" />
+            <input id="SearchSubmit" type="submit" value="Rechercher" />
+        </form>
+    </div>
+
+    <div id="filtreBox">
+        <p class="filtreTitle">Filtre</p>
+        <div class="textFilttre">
+            <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-money-bill-wave"></i></span>
+            <p>Economique</p>
+        </div>
+
+        <div class="textFilttre">
+            <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-child"></i></span>
+            <p>Famillial</p>
+        </div>
+
+        <div class="textFilttre">
+            <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-heart"></i></span>
+            <p>Romantique</p>
+        </div>
+
+        <div class="textFilttre">
+            <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-dog"></i></span>
+            <p>Animaux autorisés</p>
+        </div>
+
+    </div>
+
+    <div class="Info">
+        <span class="InfoIco" style="font-size: 15px; color: #0065FC;"><i class="fas fa-info"></i></span>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    </div>
+
+    <main>
+        <section class="boxherbegement">
+            <h2 id="Hebergement1">Hébergement à Marseille</h2>
+            <div class="Hebergement">
+                <article class="HebergementBox">
+                    <a href="#" target="_blank">
+                        <img class="HebergementImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                        <div class="BoxContent">
+                            <p class="Tbold">Auberge la Cannebiére</p>
+                            <p>Nuit à partir de 25€</p>
+                            <div class="iconBox">
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="HebergementBox">
+                    <a href="#" target="_blank">
+                        <img class="HebergementImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                        <div class="BoxContent">
+                            <p class="Tbold">Auberge la Cannebiére</p>
+                            <p>Nuit à partir de 25€</p>
+                            <div class="iconBox">
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                </article>
+
+                <article class="HebergementBox">
+                    <a href="#" target="_blank">
+                        <img class="HebergementImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                        <div class="BoxContent">
+                            <p class="Tbold">Auberge la Cannebiére</p>
+                            <p>Nuit à partir de 25€</p>
+                            <div class="iconBox">
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                </article>
+            </div>
+
+            <div class="Hebergement">
+                <a href="#" target="_blank">
+                    <article class="HebergementBox">
+                        <img class="HebergementImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                        <div class="BoxContent">
+                            <p class="Tbold">Auberge la Cannebiére</p>
+                            <p>Nuit à partir de 25€</p>
+                            <div class="iconBox">
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                    </article>
+
+                <article class="HebergementBox">
+                    <a href="#" target="_blank">
+                        <img class="HebergementImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                        <div class="BoxContent">
+                            <p class="Tbold">Auberge la Cannebiére</p>
+                            <p>Nuit à partir de 25€</p>
+                            <div class="iconBox">
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                </article>
+
+                <article class="HebergementBox">
+                    <a href="#" target="_blank">
+                        <img class="HebergementImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                        <div class="BoxContent">
+                            <p class="Tbold">Auberge la Cannebiére</p>
+                            <p>Nuit à partir de 25€</p>
+                            <div class="iconBox">
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                                <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                </article>
+            </div>
+            <p class="Aff">Afficher plus</p>
         </section>
 
+        <section id="Populaire">
+            <h2 class="TitleP">Les plus populaires <span class="" style="font-size: 15px;"><i class="fas fa-star"></i></span></h2>
+            <a href="#" target="_blank">
+                <article class="PopulaireBox">
+                    <img class="PopulaireImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                    <div class="contentP">
+                        <p class="Tbold">Auberge la Cannebiére</p>
+                        <p>Nuit à partir de 25€</p>
+                        <div class="iconBox">
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </article>
+            </a>
 
-        <footer>
-            <div>
-                <h1>Mon dernier tweet</h1>
-                <p>Hi annnnnnnnn</p>
-                <p>Le 12 octobre 2020</p>
+            <a href="#" target="_blank">
+                <article class="PopulaireBox">
+                    <img class="PopulaireImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                    <div display>
+                        <p class="Tbold">Auberge la Cannebiére</p>
+                        <p>Nuit à partir de 25€</p>
+                        <div class="iconBox">
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </article>
+            </a>
+
+            <a href="#" target="_blank">
+                <article class="PopulaireBox">
+                    <img class="PopulaireImg" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo1" />
+                    <div display>
+                        <p class="Tbold">Auberge la Cannebiére</p>
+                        <p>Nuit à partir de 25€</p>
+                        <div class="iconBox">
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHerbleu" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                            <span class="InfoHergrey" style="font-size: 15px;"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </article>
+            </a>
+
+        </section>
+    </main>
+    
+    <section>
+        <div>
+            <h2 id="Activite1">Activité à Marseilles</h2>
+            <div class="ActiviteBox">
+                <div class="ABigBox">
+                    <a href="#" target="_blank">
+                        <img class="BigImg" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Le vieux port" />
+                        <p class="ActiviteText">Vieux port</p>
+                    </a>
+                </div>
+                    
+
+                <div class="SmallB">
+                    <div class="ASmallBox">
+                        <a href="#" target="_blank">
+                            <img class="SmallImg" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Le vieux port" />
+                            <p class="ActiviteText">Vieux port</p>
+                        </a>
+                    </div>
+ 
+                    <div class="ASmallBox">
+                        <a href="#" target="_blank">
+                            <img class="SmallImg" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Le vieux port" />
+                            <p class="ActiviteText">Vieux port</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ABigBox">
+                    <a href="#" target="_blank">
+                        <img class="BigImg" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Le vieux port" />
+                        <p class="ActiviteText">Vieux port</p>
+                    </a>
+                </div>
+
+                <div class="SmallB">
+                    <div class="ASmallBox">
+                        <a href="#" target="_blank">
+                            <img class="SmallImg" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Le vieux port" />
+                            <p class="ActiviteText">Vieux port</p>
+                        </a>
+                    </div>
+
+                <div class="ASmallBox">
+                    <a href="#" target="_blank">
+                        <img class="SmallImg" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Le vieux port" />
+                        <p class="ActiviteText">Vieux port</p>
+                    </a>
+                </div>
+                </div>
             </div>
 
-            <div>
-                <h1>Mes photos</h1>
-                <p><img src="images/photo1.jpg" alt="Photo1" /><img src="images/photo2.jpg" alt="Photo2" /><img src="images/photo3.jpg" alt="Photo3" /><img src="images/photo4.jpg" alt="Photo4" /></p>
-            </div>
+        </div>
 
-            <div>
-                <h1>Mes amis</h1>
-                <ul>
-                    <li>Pupi le lapin</li>
-                    <li>Mr acrotte</li>
-                    <li>L'aticos</li>
-                    <li>Monster</li>
-                    <li>pierre le soleil</li>
-                    <li>renard</li>
-                </ul>
+    </section>
 
-            </div>
-    </div>
+    <footer>
+        <div class="footerSpace">
+            <h4>A propos</h4>
+                <p>Fonctionement du site</p>
+                <p>Conditions générales de vente</p>
+                <p>Données et confidentialité</p>
+        </div>
+
+
+        <div class="footerSpace">
+            <h4>Nos hébergement</h4>
+                <P>Chartre de qualité</P>
+                <P>Soumettre votre hotel</P>
+        </div>
+
+        <div class="footerSpace">
+            <h4>Assitance</h4>
+                <p>Centre d'aide</p>
+                <p>Nous contacter</p>
+        </div>
+
     </footer>
 
 </body>
